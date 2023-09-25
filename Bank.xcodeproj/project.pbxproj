@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DBD1187D2AC1674600957823 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBD1187C2AC1674600957823 /* main.cpp */; };
+		DBD118852AC1675200957823 /* bankomat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBD118832AC1675200957823 /* bankomat.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DBD118792AC1674600957823 /* Bank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bank; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD1187C2AC1674600957823 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DBD118832AC1675200957823 /* bankomat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bankomat.cpp; sourceTree = "<group>"; };
+		DBD118842AC1675200957823 /* bankomat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = bankomat.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DBD1187C2AC1674600957823 /* main.cpp */,
+				DBD118832AC1675200957823 /* bankomat.cpp */,
+				DBD118842AC1675200957823 /* bankomat.hpp */,
 			);
 			path = Bank;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD118852AC1675200957823 /* bankomat.cpp in Sources */,
 				DBD1187D2AC1674600957823 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

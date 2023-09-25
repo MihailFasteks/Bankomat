@@ -6,9 +6,19 @@
 //
 
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+#include "bankomat.hpp"
+#include <string.h>
+using namespace std;
+int main() {
+    Bankomat a;
+    a.Init("F10567", 0, 10, 10000);
+    a.Print();
+    a.banknoteInput();
+    a.Print();
+    a.takeOFFmoney();
+    a.Print();
+    double current=a.GetCurrent();
+    string s=to_string(current);
+    cout<<s<<endl;
     return 0;
 }
